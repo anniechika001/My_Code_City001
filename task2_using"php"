@@ -1,0 +1,13 @@
+...PHP CODE TO OUTPUT MY NAMe:
+Sure, here's a simple PHP code snippet to output my name:
+
+...php
+
+<?php
+$name = "Oko Chikaodiri Enya";
+echo "My name is: " . $name;
+?>
+
+OUTPUT:
+
+My name is: Oko Chikaodiri Enya
