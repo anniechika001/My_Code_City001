@@ -1,0 +1,16 @@
+Sure, here's a PHP code snippet to output my registration number:
+
+```php
+
+<?php
+$registrationNumber = "2022/HND/34955/CS";
+echo "My registration number is: " . $registrationNumber;
+?>
+
+```php comment sign
+
+ When I ran this code, it will output:
+```
+My registration number is: 
+2022/HND/34955/CS
+```
