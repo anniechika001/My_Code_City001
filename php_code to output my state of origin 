@@ -1,0 +1,17 @@
+Here's a PHP code snippet to output my state of origin:
+
+```php
+
+<?php
+$stateOfOrigin = "EBONYI STATE";
+echo "My state of origin is: " . $stateOfOrigin;
+?>
+
+```
+
+When you run this code, it will output:
+```
+My state of origin is:
+EBONYI STATE
+
+```
