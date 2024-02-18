@@ -1,0 +1,34 @@
+Here's a PHP code snippet to output my Local Government Area (LGA):
+
+```php
+<?php
+$lga = "AFIKPO NORTH";
+echo "My Local Government Area is: " . $lga;
+?>
+```
+
+ output:
+``'
+Your Local Government Area is:
+AFIKPO NORTH
+
+```
+
+
+
+&&&&&&&----------------------------------
+ php code for Date of Birth (DOB) output:
+
+```php
+<?php
+$dob = "15(DD)/06(MM)";
+echo "Your Date of Birth is: " . $dob;
+?>
+```
+
+output:
+```
+My Date of Birth is: 
+15(DD)/06(MM)
+
+```
