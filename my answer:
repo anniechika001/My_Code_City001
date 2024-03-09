@@ -1,0 +1,47 @@
+Here's the modified PHP program:
+
+```php
+<?php
+
+// Define the courses
+$courses = ["COM411", "COM412", "COM413", "COM414", "COM415", "GNS401", "EED413", "Project429"];
+
+// Initialize an empty array to store scores
+$scores = [];
+
+// Assign a score of 100 to each course
+foreach ($courses as $course) {
+    $scores[$course] = 100;
+}
+
+// Iterate through the courses and print their grades
+foreach ($courses as $course) {
+    $score = $scores[$course];
+    $grade = '';
+
+    if ($score >= 91 && $score <= 100) {
+        $grade = 'A';
+    } elseif ($score >= 81 && $score <= 90) {
+        $grade = 'AB';
+    } elseif ($score >= 71 && $score <= 80) {
+        $grade = 'B';
+    } elseif ($score >= 61 && $score <= 70) {
+        $grade = 'BC';
+    } elseif ($score >= 51 && $score <= 60) {
+        $grade = 'C';
+    } elseif ($score >= 41 && $score <= 50) {
+        $grade = 'CD';
+    } elseif ($score >= 31 && $score <= 40) {
+        $grade = 'D';
+    } elseif ($score >= 19 && $score <= 30) {
+        $grade = 'E';
+    } else {
+        $grade = 'INVALID';
+    }
+
+    echo "Course: $course - Grade: $grade <br>";
+}
+?>
+```
+
+This program first initializes an array `$courses` with the course codes, then assigns a score of 100 to each course. It then iterates through the courses, calculates the corresponding grade based on the score, and prints out the course along with its grade according to the given grading scale.
