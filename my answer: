@@ -1,12 +1,17 @@
 Assignment on COM411-php
 
-question❓
+name- Oko Chikaodiri Enya
+reg no - 2022/HND/34599/CS
+dept- computer science: HND 2
+
+
+Question: ⁉️❓
  Write a php program to store the number of courses you offer: which is COM411, COM412, COM413, COM414, COM415, GNS401, EED413, and Project429 in an array,  Assign a score to them which is = 100,  then, use for loop to go through the arrays and print all the courses of the grade.
  Assign grades to the listed courses "if it's 91 to 100, echo 'A'. If it's 81 to 100, echo 'AB' If it's 71 to 80, echo 'B'. If it's 61 to 70, echo 'BC'. If it's 51 to 60, echo 'C'. If it's 41 to 50, echo 'CD'. If it's 31 to 40, echo 'D'. If it's 19 to 30, echo 'E'. If Else, echo 'INVALID' "
 _______________________________________
 
 
-//MY ANSWER:
+//MY ANSWER ❤️:
 //saved with index.php:
 
 ```php
